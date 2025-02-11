@@ -11,8 +11,8 @@ void setup() {
 
 void draw() {
   background(255);
-  ellipse(x,300,200,200);
-  x = x - 3;
+  ellipse(x,300,110,110);
+  x = x - 1;
   if (x < -100) {
     x = 700;
   }
